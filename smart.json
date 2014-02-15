@@ -1,9 +1,9 @@
 {
   "name": "conway-core",
-  "description": "",
+  "description": "A framework for simulations in the vein of Conway's Game of Life.",
   "homepage": "",
-  "author": "",
+  "author": "Patrick Canfield",
   "version": "0.0.1",
-  "git": "",
+  "git": "https://github.com/pzatrick/meteor-conway-core.git",
   "packages": {}
 }
