@@ -20,7 +20,7 @@ Conway.createFixture() # create the game world, pass {randomize: true} for rando
 # On the client only
 
 ```coffeescript
-Conway.getCells()      # returns an Array of all the cells, length will be width * height 
+Conway.getCells()      # reactively returns an Array of all the cells, length will be width * height 
 
 Conway.play()
 
