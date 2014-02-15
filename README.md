@@ -5,7 +5,7 @@ I extracted this package from a just-for-fun project: yet another implementation
 
 # On both client and server
 
-``coffeescript
+```coffeescript
 Conway.geometry.with   # width, in cells, of the game world
 
 Conway.geometry.height # height, in cells, of the game world
@@ -15,11 +15,11 @@ Conway.Cell            # class representing a single cell
 Conway.save()          # save the state of the game world to the database
 
 Conway.createFixture() # create the game world, pass {randomize: true} for randomness
-``
+```
 
 # On the client only
 
-``coffeescript
+```coffeescript
 Conway.getCells()      # returns an Array of all the cells, length will be width * height 
 
 Conway.play()
@@ -27,6 +27,6 @@ Conway.play()
 Conway.pause()
 
 Conway.isPlaying()
-``
+```
 
 
