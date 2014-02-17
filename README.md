@@ -66,8 +66,10 @@ Conway.isPlaying()
 At the time of writing, using the "shark" branch of meteor yeilds significantly better performance due to its optimized fork of handlebars, but the package also works with the "devel" branch.
 
 The project is still in its infancy and there's a long todo list including at least:
-- Writing a demo project
-
+- Write a demo project
+- Write unit tests
+- Finalize the API
+- Create a project homepage
 
 
 
