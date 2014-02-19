@@ -63,13 +63,18 @@ Conway.isPlaying()
 - Run the project using meteorite (`mrt`)
 - Laugh like Dr. Frankenstein!
 
-At the time of writing, using the "shark" branch of meteor yeilds significantly better performance due to its optimized fork of handlebars, but the package also works with the "devel" branch.
+At the time of writing, using the "shark" branch of meteor yields significantly better performance due to its optimized fork of handlebars, but the package also works with the "devel" branch.
 
 The project is still in its infancy and there's a long todo list including at least:
-- Write a demo project
-- Write unit tests
-- Finalize the API
-- Create a project homepage
+- Documentation and deliverables
+  - Write a demo project
+  - Write unit tests
+  - Finalize the API
+  - Create a project homepage
+- Tech enablement
+  - create Conway.utils instead of using underscore directly (client, server)
+  - create/use a grid data-structure for better abstraction (client, server)
+  - Write Conway.Instance class (server)
 
 
 
